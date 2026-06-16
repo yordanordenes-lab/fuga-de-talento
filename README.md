@@ -17,22 +17,6 @@ Proyecto de People Analytics con Machine Learning para predecir fuga de empleado
 | 🔴 Insatisfecho + Subpagado | 111 | 56.8% | #3 | Ajuste compa-ratio |
 | 🟠 Compa Crítico + Estancado | 100 | 39.0% | #4 | Plan de desarrollo |
 
-## 🚀 Cómo usar
-
-```bash
-pip install -r requirements.txt
-jupyter notebook analysis.ipynb
-```
-## 🛠️ Stack
-Python · Pandas · NumPy · Scikit-learn · Matplotlib
-
-## 💡 Lecciones clave
-1-Los combos de interacción superan a variables aisladas — Burnout (HE + vacaciones + satisfacción) es más predictivo que cualquiera sola.
-
-2-Correlación ≠ Importancia del modelo — Satisfacción tenía la mayor correlación, pero el RF distribuyó poder entre variables colineales.
-
-3-Priorización por ROI — No todos los segmentos se tratan igual; el volumen y costo de intervención importan.
-
 ## 📸 Gráficos del análisis
 
 ### Comparación de modelos
@@ -49,3 +33,22 @@ Python · Pandas · NumPy · Scikit-learn · Matplotlib
 
 ### Priorización por ROI
 ![Prioridades](images/Prioridades.png)
+
+## 💡 Lecciones clave
+1-Los combos de interacción superan a variables aisladas — Burnout (HE + vacaciones + satisfacción) es más predictivo que cualquiera sola.
+
+2-Correlación ≠ Importancia del modelo — Satisfacción tenía la mayor correlación, pero el RF distribuyó poder entre variables colineales.
+
+3-Priorización por ROI — No todos los segmentos se tratan igual; el volumen y costo de intervención importan.
+
+## 🚀 Cómo usar
+
+```bash
+pip install -r requirements.txt
+jupyter notebook analysis.ipynb
+```
+## 🛠️ Stack
+Python · Pandas · NumPy · Scikit-learn · Matplotlib
+
+
+
